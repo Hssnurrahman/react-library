@@ -1,0 +1,197 @@
+/* * Css Button Class */
+
+@import "../scss/functions.scss";
+@import "../scss/variables.scss";
+@import "../scss/mixins.scss";
+
+//   .storybook-button:disabled,
+//   .storybook-button["disabled"] {
+//     border: 2px solid #999999;
+//     background-color: darkgrey;
+//     cursor: auto;
+//     color: #fff;
+//     display: inline-block;
+//     line-height: 1;
+//     padding: 10px 35px;
+//   }
+.storybook-button {
+  cursor: pointer;
+  line-height: 1;
+  padding: 10px 18px;
+}
+.storybook-button-width--quarter {
+  width: 25%;
+}
+.storybook-button-width--half {
+  width: 50%;
+}
+.storybook-button-width--full {
+  width: 100%;
+}
+.storybook-button-width--auto {
+  width: auto;
+}
+//   .storybook-button--start {
+//   @include button-alignment(flex-start);
+// }
+// .storybook-button--center {
+//   @include button-alignment(center);
+// }
+// .storybook-button--end {
+//   @include button-alignment(flex-end);
+// }
+
+/* * Css Rounded Button Class */
+.storybook-button-rounded--xs {
+  border-radius: 4px;
+}
+.storybook-button-rounded--sm {
+  border-radius: 7px;
+}
+
+.storybook-button-rounded--md {
+  border-radius: 10px;
+}
+
+.storybook-button-rounded--lg {
+  border-radius: 14px;
+}
+
+.storybook-button-rounded--xl {
+  border-radius: 18px;
+}
+
+//  * Filled Color Classes
+
+.storybook-button-primary--filled {
+  @include button-filled($primary, $primaryHover);
+}
+
+.storybook-button-secondary--filled {
+  @include button-filled($secondary, $secondaryHover);
+}
+
+.storybook-button-success--filled {
+  @include button-filled($success, $successHover);
+}
+
+.storybook-button-error--filled {
+  @include button-filled($error, $errorHover);
+}
+
+//  * Outlined Color Classes
+
+.storybook-button-primary--outlined {
+  @include button-outlined($primary);
+}
+
+.storybook-button-secondary--outlined {
+  @include button-outlined($secondary);
+}
+
+.storybook-button-success--outlined {
+  @include button-outlined($success);
+}
+
+.storybook-button-error--outlined {
+  @include button-outlined($error);
+}
+
+//  * Outlined Color Classes
+
+.storybook-button-primary--flat {
+  @include button-flat($primaryFlat, $primaryFlatHover, $primary);
+}
+
+.storybook-button-secondary--flat {
+  @include button-flat($secondaryFlat, $secondaryFlatHover, $secondary);
+}
+
+.storybook-button-success--flat {
+  @include button-flat($successFlat, $successFlatHover, $success);
+}
+
+.storybook-button-error--flat {
+  @include button-flat($errorFlat, $errorFlatHover, $error);
+}
+
+//  * Link Color Classes
+
+.storybook-button-primary--link {
+  @include button-link($primary);
+}
+
+.storybook-button-secondary--link {
+  @include button-link($secondary);
+}
+
+.storybook-button-success--link {
+  @include button-link($success);
+}
+
+.storybook-button-error--link {
+  @include button-link($error);
+}
+
+//  * Text Color Classes
+
+.storybook-button-primary--text {
+  @include button-text($primary, $primaryTextHover);
+}
+
+.storybook-button-secondary--text {
+  @include button-text($secondary, $secondaryTextHover);
+}
+
+.storybook-button-success--text {
+  @include button-text($success, $successTextHover);
+}
+
+.storybook-button-error--text {
+  @include button-text($error, $errorTextHover);
+}
+
+//  * Shadow Color Classes
+
+.storybook-button-primary--shadow {
+  @include button-shadow($primary, $primaryShadowHover);
+}
+
+.storybook-button-secondary--shadow {
+  @include button-shadow($secondary, $secondaryShadowHover);
+}
+
+.storybook-button-success--shadow {
+  @include button-shadow($success, $successShadowHover);
+}
+
+.storybook-button-error--shadow {
+  @include button-shadow($error, $errorShadowHover);
+}
+
+// * Size Button Classes
+
+.storybook-button--xs {
+  font-size: 11px;
+  padding: 8px 30px;
+}
+.storybook-button--sm {
+  font-size: 12px;
+  padding: 10px 35px;
+}
+.storybook-button--md {
+  font-size: 14px;
+  padding: 11px 44px;
+}
+.storybook-button--lg {
+  font-size: 16px;
+  padding: 12px 50px;
+}
+.storybook-button--xl {
+  font-size: 16px;
+  padding: 14px 60px;
+}
+
+/* .storybook-button--true {
+  width: "fit-content";
+} */

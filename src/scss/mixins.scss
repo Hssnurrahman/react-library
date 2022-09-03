@@ -1,0 +1,113 @@
+@import "variables";
+
+@mixin button-filled($variant, $hover) {
+  border: buttonBorder($variant);
+  color: $white;
+  background-color: $variant;
+
+  &:hover {
+    border: buttonBorder($hover);
+    background-color: $hover;
+  }
+
+  &:disabled {
+    border: buttonBorder($gray);
+    background-color: $gray;
+    color: $darkGray;
+    cursor: not-allowed;
+  }
+}
+
+@mixin button-outlined($variant) {
+  border: buttonBorder($variant);
+  color: $variant;
+  background: transparent;
+
+  &:hover {
+    border: buttonBorder($variant);
+    background-color: $variant;
+    color: $white;
+  }
+
+  &:disabled {
+    border: buttonBorder($darkGray);
+    background-color: $gray;
+    color: $darkGray;
+    cursor: not-allowed;
+  }
+}
+
+@mixin button-flat($variant, $hover, $color) {
+  border: buttonBorder(transparent);
+  color: $color;
+  background-color: $variant;
+
+  &:hover {
+    border: buttonBorder(transparent);
+    background-color: $hover;
+  }
+
+  &:disabled {
+    border: buttonBorder(transparent);
+    background-color: $gray;
+    color: $darkGray;
+    cursor: not-allowed;
+  }
+}
+
+@mixin button-text($variant, $hover) {
+  color: $variant;
+  background: transparent;
+  border: buttonBorder(transparent);
+
+  &:hover {
+    border: buttonBorder(transparent);
+    background-color: $hover;
+  }
+
+  &:disabled {
+    border: buttonBorder(transparent);
+    background-color: transparent;
+    color: $darkGray;
+    cursor: not-allowed;
+  }
+}
+
+@mixin button-link($variant) {
+  color: $variant;
+  background: transparent;
+  border: buttonBorder(transparent);
+
+  &:hover {
+    border: buttonBorder(transparent);
+    text-decoration: textDecoration($variant);
+  }
+
+  &:disabled {
+    border: buttonBorder(transparent);
+    background-color: transparent;
+    text-decoration: textDecoration(transparent);
+    color: $darkGray;
+    cursor: not-allowed;
+  }
+}
+
+@mixin button-shadow($variant, $shadow) {
+  border: buttonBorder($variant);
+  color: $white;
+  background-color: $variant;
+  box-shadow: boxShadow($shadow);
+
+  &:hover {
+    border: buttonBorder(transparent);
+    background-color: $shadow;
+  }
+
+  &:disabled {
+    border: buttonBorder(transparent);
+    background-color: $gray;
+    box-shadow: boxShadow($darkGray);
+    color: $darkGray;
+    cursor: not-allowed;
+  }
+}

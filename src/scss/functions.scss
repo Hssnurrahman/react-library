@@ -1,0 +1,11 @@
+@function buttonBorder($color) {
+  @return 2px solid $color;
+}
+
+@function textDecoration($color) {
+  @return underline $color 2px;
+}
+
+@function boxShadow($color) {
+  @return 0px 2px 10px 3px $color;
+}
