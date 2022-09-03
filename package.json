@@ -30,7 +30,8 @@
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "storybook-docs": "start-storybook --docs --no-manager-cache",
-    "build-storybook-docs": "build-storybook --docs"
+    "build-storybook-docs": "build-storybook --docs",
+    "chromatic": "npx chromatic --project-token=3fdc96c86e7f"
   },
   "eslintConfig": {
     "extends": [
