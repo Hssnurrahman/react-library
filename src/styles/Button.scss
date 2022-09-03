@@ -31,15 +31,21 @@
 .storybook-button-width--auto {
   width: auto;
 }
-//   .storybook-button--start {
-//   @include button-alignment(flex-start);
-// }
-// .storybook-button--center {
-//   @include button-alignment(center);
-// }
-// .storybook-button--end {
-//   @include button-alignment(flex-end);
-// }
+.storybook-button--start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.storybook-button--center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.storybook-button--end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 
 /* * Css Rounded Button Class */
 .storybook-button-rounded--xs {
