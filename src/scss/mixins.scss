@@ -6,7 +6,7 @@
   background-color: $variant;
 
   &:hover {
-    border: buttonBorder($hover);
+    border: buttonBorder(transparent);
     background-color: $hover;
   }
 
