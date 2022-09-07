@@ -12,7 +12,7 @@ const theme = create({
   // colorPrimary: "gray",
 
   brandTitle: "CircleWorld",
-  brandImage: "circleworld-lightmode.png",
+  brandImage: "circleworld.png",
 });
 
 addons.setConfig({

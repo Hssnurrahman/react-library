@@ -4,7 +4,13 @@ import "../styles/Button.scss";
 
 interface ButtonProps {
   children: string | string[];
-  color?: "primary" | "secondary" | "success" | "error";
+  color?:
+    | "primary"
+    | "secondary"
+    | "success"
+    | "error"
+    | "warning"
+    | "telegram";
   variant?: "filled" | "outlined" | "flat" | "link" | "text" | "shadow";
   rounded?: "xs" | "sm" | "md" | "lg" | "xl";
   size?: "xs" | "sm" | "md" | "lg" | "xl";
@@ -31,10 +37,8 @@ const ButtonComponent: FC<ButtonProps> = ({
         onClick={onClick}
         disabled={disabled}
         className={`storybook-button storybook-button-${color}--${variant} storybook-button-rounded--${rounded} storybook-button--${size} 
-        storybook-button-width--${width}
-    `}
+        storybook-button-width--${width}`}
       >
-        {/* {icon} */}
         {children}
       </button>
     </div>
