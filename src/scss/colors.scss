@@ -1,3 +1,5 @@
+// * Colors
+
 $primary: rgb(0, 114, 245);
 $primaryHover: rgba(0, 114, 245, 0.8);
 $primaryShadow: rgba(0, 114, 245, 0.7);
@@ -26,17 +28,6 @@ $errorShadowHover: rgba(211, 47, 47, 0.9);
 $errorFlat: rgba(211, 47, 47, 0.2);
 $errorFlatHover: rgba(211, 47, 47, 0.3);
 $errorTextHover: rgba(211, 47, 47, 0.1);
-// $linkedin: #008cc9;
-// $linkedinShadow: rgb(0, 140, 201, 0.7);
-// $linkedinFlat: rgb(0, 140, 201, 0.2);
-// $linkedinFlatHover: rgb(0, 140, 201, 0.3);
-$telegram: rgb(48, 169, 223);
-$telegramHover: rgba(48, 169, 223, 0.8);
-$telegramShadow: rgba(48, 169, 223, 0.7);
-$telegramShadowHover: rgba(48, 169, 223, 0.9);
-$telegramFlat: rgba(48, 169, 223, 0.2);
-$telegramFlatHover: rgba(48, 169, 223, 0.3);
-$telegramTextHover: rgba(48, 169, 223, 0.1);
 $warning: rgb(245, 165, 36);
 $warningHover: rgba(245, 165, 36, 0.8);
 $warningShadow: rgba(245, 165, 36, 0.7);
@@ -44,6 +35,55 @@ $warningShadowHover: rgba(245, 165, 36, 0.9);
 $warningFlat: rgba(245, 165, 36, 0.2);
 $warningFlatHover: rgba(245, 165, 36, 0.3);
 $warningTextHover: rgba(245, 165, 36, 0.1);
+
+// * Social Media Platforms
+
+$linkedin: rgb(10, 102, 194);
+$linkedinHover: rgba(10, 102, 194, 0.8);
+$linkedinShadow: rgba(10, 102, 194, 0.7);
+$linkedinShadowHover: rgba(10, 102, 194, 0.9);
+$linkedinFlat: rgba(10, 102, 194, 0.2);
+$linkedinFlatHover: rgba(10, 102, 194, 0.3);
+$linkedinTextHover: rgba(10, 102, 194, 0.1);
+$telegram: rgb(48, 169, 223);
+$telegramHover: rgba(48, 169, 223, 0.8);
+$telegramShadow: rgba(48, 169, 223, 0.7);
+$telegramShadowHover: rgba(48, 169, 223, 0.9);
+$telegramFlat: rgba(48, 169, 223, 0.2);
+$telegramFlatHover: rgba(48, 169, 223, 0.3);
+$telegramTextHover: rgba(48, 169, 223, 0.1);
+$tumblr: rgb(0, 25, 53);
+$tumblrHover: rgba(0, 25, 53, 0.8);
+$tumblrShadow: rgba(0, 25, 53, 0.7);
+$tumblrShadowHover: rgba(0, 25, 53, 0.9);
+$tumblrFlat: rgba(0, 25, 53, 0.2);
+$tumblrFlatHover: rgba(0, 25, 53, 0.3);
+$tumblrTextHover: rgba(0, 25, 53, 0.1);
+$twitter: rgb(29, 161, 242);
+$twitterHover: rgba(29, 161, 242, 0.8);
+$twitterShadow: rgba(29, 161, 242, 0.7);
+$twitterShadowHover: rgba(29, 161, 242, 0.9);
+$twitterFlat: rgba(29, 161, 242, 0.2);
+$twitterFlatHover: rgba(29, 161, 242, 0.3);
+$twitterTextHover: rgba(29, 161, 242, 0.1);
+$whatsapp: rgb(18, 140, 126);
+$whatsappHover: rgba(18, 140, 126, 0.8);
+$whatsappShadow: rgba(18, 140, 126, 0.7);
+$whatsappShadowHover: rgba(18, 140, 126, 0.9);
+$whatsappFlat: rgba(18, 140, 126, 0.2);
+$whatsappFlatHover: rgba(18, 140, 126, 0.3);
+$whatsappTextHover: rgba(18, 140, 126, 0.1);
+
+// * Frameworks
+
+$react: rgb(93, 207, 240);
+$reactHover: rgba(93, 207, 240, 0.8);
+$reactShadow: rgba(93, 207, 240, 0.7);
+$reactShadowHover: rgba(93, 207, 240, 0.9);
+$reactFlat: rgba(93, 207, 240, 0.2);
+$reactFlatHover: rgba(93, 207, 240, 0.3);
+$reactTextHover: rgba(93, 207, 240, 0.1);
+
 $white: #ffffff;
 $gray: #eceef0;
 $darkGray: #7e868c;

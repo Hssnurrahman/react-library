@@ -10,7 +10,12 @@ interface ButtonProps {
     | "success"
     | "error"
     | "warning"
-    | "telegram";
+    | "telegram"
+    | "tumblr"
+    | "twitter"
+    | "linkedin"
+    | "react"
+    | "whatsapp";
   variant?: "filled" | "outlined" | "flat" | "link" | "text" | "shadow";
   rounded?: "xs" | "sm" | "md" | "lg" | "xl";
   size?: "xs" | "sm" | "md" | "lg" | "xl";

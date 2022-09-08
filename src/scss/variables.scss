@@ -35,4 +35,14 @@ $variants: "primary" $primary $primaryHover $primaryTextHover
   "telegram" $telegram $telegramHover $telegramTextHover $telegramShadowHover
     $telegramFlat $telegramFlatHover,
   "warning" $warning $warningHover $warningTextHover $warningShadowHover
-    $warningFlat $warningFlatHover;
+    $warningFlat $warningFlatHover,
+  "tumblr" $tumblr $tumblrHover $tumblrTextHover $tumblrShadowHover $tumblrFlat
+    $tumblrFlatHover,
+  "twitter" $twitter $twitterHover $twitterTextHover $twitterShadowHover
+    $twitterFlat $twitterFlatHover,
+  "linkedin" $linkedin $linkedinHover $linkedinTextHover $linkedinShadowHover
+    $linkedinFlat $linkedinFlatHover,
+  "react" $react $reactHover $reactTextHover $reactShadowHover $reactFlat
+    $reactFlatHover,
+  "whatsapp" $whatsapp $whatsappHover $whatsappTextHover $whatsappShadowHover
+    $whatsappFlat $whatsappFlatHover;

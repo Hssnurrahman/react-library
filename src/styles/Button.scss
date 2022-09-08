@@ -1,15 +1,10 @@
 @import "../scss/functions.scss";
-@import "../scss/variables.scss";
 @import "../scss/mixins.scss";
 
 .storybook-button {
   cursor: pointer;
   line-height: 1;
   padding: 10px 18px;
-  // background-image: linear-gradient(to right, $primary, red);
-  // border-width: 2px;
-  // border-style: solid;
-  // border-image: linear-gradient(to right, $error, $primary);
 }
 
 @each $name, $width in $widths {
